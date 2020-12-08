@@ -67,7 +67,7 @@ class _ImageViewState extends State<ImageView> {
                                   begin: FractionalOffset.topLeft,
                                   end: FractionalOffset.bottomRight)),
                           child: Text(
-                            "Set Wallpaper",
+                            "Set Photo",
                             style: TextStyle(
                                 color: Colors.white70,
                                 fontSize: 15,

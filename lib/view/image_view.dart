@@ -99,7 +99,7 @@ class _ImageViewState extends State<ImageView> {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: <Widget>[
                                 Text(
-                                  "Set Wallpaper",
+                                  "Set Photo",
                                   style: TextStyle(
                                       color: Colors.white70,
                                       fontSize: 15,

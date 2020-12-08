@@ -81,7 +81,7 @@ class _SearchViewState extends State<SearchView> {
                         child: TextField(
                       controller: searchController,
                       decoration: InputDecoration(
-                          hintText: "search wallpapers",
+                          hintText: "search photos",
                           border: InputBorder.none),
                     )),
                     InkWell(
