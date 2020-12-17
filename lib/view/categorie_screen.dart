@@ -21,15 +21,12 @@ class _CategorieScreenState extends State<CategorieScreen> {
     await http.get(
         "https://api.pexels.com/v1/search?query=${widget.categorie}&per_page=30&page=1",
         headers: {"Authorization": apiKEY}).then((value) {
-      //print(value.body);
 
       Map<String, dynamic> jsonData = jsonDecode(value.body);
       jsonData["photos"].forEach((element) {
-        //print(element);
         PhotosModel photosModel = new PhotosModel();
         photosModel = PhotosModel.fromMap(element);
         photos.add(photosModel);
-        //print(photosModel.toString()+ "  "+ photosModel.src.portrait);
       });
 
       setState(() {});

@@ -73,7 +73,7 @@ class _SearchViewState extends State<SearchView> {
                   color: Color(0xfff5f8fd),
                   borderRadius: BorderRadius.circular(30),
                 ),
-                margin: EdgeInsets.symmetric(horizontal: 24),
+                margin: EdgeInsets.symmetric(horizontal: 25,
                 padding: EdgeInsets.symmetric(horizontal: 24),
                 child: Row(
                   children: <Widget>[
